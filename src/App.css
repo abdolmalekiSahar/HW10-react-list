@@ -1,0 +1,56 @@
+body {
+    background: #29014d;
+    color: white;
+    box-sizing: border-box;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+.info div{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px auto;
+    /* border: 1px white solid; */
+    width: 80vw;
+}
+
+.info div input{
+    width: 80%;
+}
+
+.info-gender {
+    display: flex;
+    justify-content: space-between;
+  grid-auto-flow: dense;
+  align-items: center;
+    
+}
+.gender-input {
+    display: flex;
+    width: 30%;
+    /* justify-content: flex-start; */
+    margin:0 auto;
+}
+.info button{
+    margin: 8px 0px;
+}
+
+.students{
+    padding-left: 0px;
+}
+
+.students_item{
+    width: 80vw;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.students button{
+    border-radius: 5px;
+    background-color:transparent;
+    color: white;
+}
+
